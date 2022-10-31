@@ -1,0 +1,13 @@
+2022-10-31 17:21:56.500  INFO 5760 --- [restartedMain] c.mycom.more.SpringBootMore2Application  : Starting SpringBootMore2Application using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 5760 (C:\Users\SSAFY\Documents\Springboot\SpringBootMore2\bin\main started by SSAFY in C:\Users\SSAFY\Documents\Springboot\SpringBootMore2)
+2022-10-31 17:21:56.502  INFO 5760 --- [restartedMain] c.mycom.more.SpringBootMore2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 17:21:56.529  INFO 5760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 17:21:56.529  INFO 5760 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 17:21:56.889  WARN 5760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mycom.more]' package. Please check your configuration.
+2022-10-31 17:21:57.113  INFO 5760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-31 17:21:57.119  INFO 5760 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 17:21:57.119  INFO 5760 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 17:21:57.155  INFO 5760 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 17:21:57.155  INFO 5760 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 624 ms
+2022-10-31 17:21:57.404  WARN 5760 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-31 17:21:57.424  INFO 5760 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-31 17:21:57.430  INFO 5760 --- [restartedMain] c.mycom.more.SpringBootMore2Application  : Started SpringBootMore2Application in 1.147 seconds (JVM running for 1.584)
