@@ -9,7 +9,8 @@ import com.mycom.more.dto.StudentDto;
 public class SpringBootMoreApplication {
 
 	public static void main(String[] args) {
-		StudentDto dto=new StudentDto(11, "홍길동", "hong@gildong.com", "010-1111-1111");
+		
+		//StudentDto dto = new StudentDto(111, "홍길동", "hong@gildong.com", "010-1111-1111");
 		SpringApplication.run(SpringBootMoreApplication.class, args);
 	}
 
