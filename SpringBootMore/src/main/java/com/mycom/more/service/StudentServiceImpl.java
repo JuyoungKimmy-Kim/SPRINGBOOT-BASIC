@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.mycom.more.dao.StudentDao;
 import com.mycom.more.dto.StudentDto;
@@ -16,31 +17,36 @@ public class StudentServiceImpl implements StudentService{
 
 	@Override
 	public List<StudentDto> list() {
-		// TODO Auto-generated method stub
 		return dao.list();
 	}
 
 	@Override
 	public StudentDto detail(int studentId) {
-		// TODO Auto-generated method stub
 		return dao.detail(studentId);
 	}
 
 	@Override
+//	@Transactional
 	public int insert(StudentDto dto) {
-		// TODO Auto-generated method stub
+		
 		return dao.insert(dto);
 	}
 
 	@Override
+//	@Transactional
 	public int update(StudentDto dto) {
-		// TODO Auto-generated method stub
+		
+//		dto.setEmail("최종 업데이트본 아님!");
+//		dao.update(dto);
+//		
+//		String str=null;
+//		str.length();
+		
 		return dao.update(dto);
 	}
 
 	@Override
 	public int delete(int studentId) {
-		// TODO Auto-generated method stub
 		return dao.delete(studentId);
 	}
 }

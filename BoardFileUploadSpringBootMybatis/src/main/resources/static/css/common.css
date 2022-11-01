@@ -1,0 +1,13 @@
+.ck-editor__editable {
+    height: 400px;
+}
+
+.thumbnail-wrapper {
+	margin-top: 5px;
+}
+
+.thumbnail-wrapper img {
+	width: 100px !important;
+	margin-right: 5px;
+	max-width: 100%;
+}
