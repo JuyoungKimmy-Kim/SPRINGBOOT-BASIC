@@ -90,3 +90,19 @@ function makePaginationHtml(listRowCount, pageLinkCount, currentPageIndex,
 
 	targetUI.innerHTML = paginationHtml;
 }
+
+function initUserInfo(page){
+    if( page == "board" ){
+        document.querySelector("#imgUserProfileImageUrl").setAttribute("src", sessionStorage.getItem("userProfileImageUrl"));
+    }else if( page == "admin" ){
+        ///
+        //
+        //
+    }
+
+}
+
+function destroyUserInfo(){
+    sessionStorage.removeItem("userName");
+    sessionStorage.removeItem("userProfileImageUrl");
+}

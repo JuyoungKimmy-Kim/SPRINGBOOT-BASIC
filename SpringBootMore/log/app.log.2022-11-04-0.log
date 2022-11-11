@@ -1,0 +1,895 @@
+2022-11-04 14:10:44.651  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 1456 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:10:44.653  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:10:44.679  INFO 1456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-04 14:10:44.679  INFO 1456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-04 14:10:45.470  INFO 1456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:10:45.475  INFO 1456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:10:45.475  INFO 1456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:10:45.530  INFO 1456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:10:45.530  INFO 1456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 850 ms
+2022-11-04 14:10:46.028  INFO 1456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:10:46.050  INFO 1456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:10:46.056  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 1.627 seconds (JVM running for 2.083)
+2022-11-04 14:10:50.559  INFO 1456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:10:50.559  INFO 1456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:10:50.559  INFO 1456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-04 14:11:23.292  INFO 1456 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 14:11:23.388  INFO 1456 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:11:23.389  INFO 1456 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:11:23.509  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 1456 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:11:23.509  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:11:23.703  INFO 1456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:11:23.703  INFO 1456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:11:23.703  INFO 1456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:11:23.711  INFO 1456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:11:23.712  INFO 1456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
+2022-11-04 14:11:23.884  INFO 1456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:11:23.891  INFO 1456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:11:23.894  INFO 1456 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.404 seconds (JVM running for 39.922)
+2022-11-04 14:11:23.896  INFO 1456 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 14:11:26.523  INFO 1456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:11:26.523  INFO 1456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:11:26.524  INFO 1456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 14:11:52.026  INFO 1456 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 14:11:53.181 ERROR 1456 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265) [spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400) [spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373) [spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595) [spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382) [spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) [spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) [spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) [spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) [spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) [spring-aop-5.3.23.jar:5.3.23]
+	at com.mycom.more.service.StudentServiceImpl$$EnhancerBySpringCGLIB$$5afd4c4f.list(<generated>) [main/:na]
+	at com.mycom.more.controller.StudentController.list(StudentController.java:24) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) [spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) [tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) [tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_192]
+
+2022-11-04 14:11:53.186 ERROR 1456 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)] with root cause
+
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198) ~[mysql-connector-j-8.0.31.jar:8.0.31]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:265) ~[spring-jdbc-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.23.jar:5.3.23]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.23.jar:5.3.23]
+	at com.mycom.more.service.StudentServiceImpl$$EnhancerBySpringCGLIB$$5afd4c4f.list(<generated>) ~[main/:na]
+	at com.mycom.more.controller.StudentController.list(StudentController.java:24) ~[main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_192]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.23.jar:5.3.23]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779) ~[tomcat-embed-core-9.0.68.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.23.jar:5.3.23]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.68.jar:9.0.68]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_192]
+
+2022-11-04 14:12:21.132  INFO 1456 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-04 14:12:21.217  INFO 1456 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:12:21.219  INFO 1456 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:42:03.503  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:42:03.504  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:42:03.529  INFO 12984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-04 14:42:03.529  INFO 12984 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-04 14:42:04.229  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:42:04.233  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:42:04.234  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:42:04.272  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:42:04.272  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
+2022-11-04 14:42:04.762  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:42:04.782  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:42:04.789  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 1.504 seconds (JVM running for 1.937)
+2022-11-04 14:42:08.304  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:42:08.304  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:42:08.305  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-04 14:42:08.324  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-04 14:42:08.462  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-04 14:42:08.479 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:42:08.496 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:42:08.524 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:42:10.259 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:42:10.260 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:42:10.262 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:42:11.656 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:42:11.657 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:42:11.658 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:42:35.645 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:42:35.645 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:42:35.647 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:42:57.354  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 14:42:57.431  INFO 12984 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:42:57.432  INFO 12984 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:42:57.434  WARN 12984 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 14:42:57.438  INFO 12984 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-04 14:42:57.445  INFO 12984 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-04 14:42:57.566  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:42:57.566  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:42:57.759  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:42:57.759  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:42:57.759  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:42:57.767  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:42:57.767  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 200 ms
+2022-11-04 14:42:57.933  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:42:57.940  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:42:57.943  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.396 seconds (JVM running for 55.091)
+2022-11-04 14:42:57.945  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 14:43:03.085  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:43:03.086  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:43:03.087  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 14:43:03.088  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-04 14:43:03.100  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-04 14:43:03.105 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:03.105 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:03.106 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:04.044 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:04.044 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:04.046 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:04.679 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:04.679 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:04.680 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:05.411 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:05.411 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:05.412 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:05.908 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:05.909 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:05.910 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:10.622  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 14:43:10.685  INFO 12984 --- [Thread-13] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:43:10.688  INFO 12984 --- [Thread-13] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:43:10.689  WARN 12984 --- [Thread-13] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 14:43:10.693  INFO 12984 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-04 14:43:10.698  INFO 12984 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-11-04 14:43:10.801  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:43:10.802  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:43:10.959  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:43:10.960  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:43:10.960  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:43:10.968  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:43:10.968  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+2022-11-04 14:43:11.137  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:43:11.144  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:43:11.147  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.363 seconds (JVM running for 68.295)
+2022-11-04 14:43:11.148  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 14:43:14.135  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:43:14.137  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:43:14.137  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-04 14:43:14.138  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-11-04 14:43:14.148  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-11-04 14:43:14.151 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:14.151 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:14.153 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:14.889 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:14.889 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:14.891 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:36.056  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 14:43:36.134  INFO 12984 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:43:36.136  INFO 12984 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:43:36.143  WARN 12984 --- [Thread-19] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 14:43:36.151  INFO 12984 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-11-04 14:43:36.156  INFO 12984 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-11-04 14:43:36.269  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:43:36.269  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:43:36.448  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:43:36.448  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:43:36.448  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:43:36.459  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:43:36.459  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 189 ms
+2022-11-04 14:43:36.612  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:43:36.618  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:43:36.621  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.368 seconds (JVM running for 93.769)
+2022-11-04 14:43:36.622  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 14:43:38.551  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:43:38.552  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:43:38.553  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 14:43:38.554  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-11-04 14:43:38.564  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-11-04 14:43:38.567 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:38.567 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:38.569 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:43:39.425 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:43:39.425 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:43:39.427 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:44:23.050  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 14:44:23.113  INFO 12984 --- [Thread-25] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 14:44:23.114  INFO 12984 --- [Thread-25] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 14:44:23.117  WARN 12984 --- [Thread-25] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 14:44:23.120  INFO 12984 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-11-04 14:44:23.124  INFO 12984 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-11-04 14:44:23.228  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 14:44:23.228  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 14:44:23.401  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 14:44:23.401  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 14:44:23.401  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 14:44:23.408  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 14:44:23.408  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2022-11-04 14:44:23.559  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 14:44:23.565  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 14:44:23.567  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.355 seconds (JVM running for 140.716)
+2022-11-04 14:44:23.568  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 14:44:26.304  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 14:44:26.305  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 14:44:26.306  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 14:44:26.307  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-11-04 14:44:26.316  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-11-04 14:44:26.320 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:44:26.320 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:44:26.321 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:44:27.058 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:44:27.058 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:44:27.061 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:44:28.176 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:44:28.177 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:44:28.178 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:44:38.725 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:44:38.725 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:44:38.726 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:48:54.658 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:48:54.658 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:48:54.659 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:49:28.703 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:49:28.704 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:49:28.704 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:50:35.064 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:50:35.064 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:50:35.065 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:50:46.534 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:50:46.535 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:50:46.535 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:51:26.387 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:51:26.387 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:51:26.388 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:52:58.317 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:52:58.317 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:52:58.318 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:54:14.825 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:54:14.825 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:54:14.826 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:54:22.049 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:54:22.049 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:54:22.050 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:56:05.715 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:56:05.715 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:56:05.716 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:56:08.958 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:56:08.958 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:56:08.959 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:56:11.850 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:56:11.851 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:56:11.851 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 9
+2022-11-04 14:56:17.051 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 14:56:17.052 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: 김주영(String), null, null
+2022-11-04 14:56:17.058 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 14:56:19.397 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:56:19.397 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:56:19.398 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 10
+2022-11-04 14:58:10.893 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:10.893 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:10.894 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 10
+2022-11-04 14:58:13.291 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:13.291 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:13.292 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 10
+2022-11-04 14:58:16.120 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:16.121 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:16.122 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 10
+2022-11-04 14:58:22.568 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 14:58:22.569 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: 김주영test(String), 김주영test(String), 1234(String)
+2022-11-04 14:58:22.569 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 14:58:25.601 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:25.602 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:25.602 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 11
+2022-11-04 14:58:45.884 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:45.884 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:45.885 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 11
+2022-11-04 14:58:50.387 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:58:50.387 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:58:50.388 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 11
+2022-11-04 14:58:55.872 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 14:58:55.873 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: 김김김(String), 1234(String), 1234(String)
+2022-11-04 14:58:55.873 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 14:59:00.987 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:59:00.987 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:59:00.988 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 14:59:02.563 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 14:59:02.563 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 14:59:02.564 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:00:16.571 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:00:16.571 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:00:16.572 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:03:52.924 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:03:52.924 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:03:52.925 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:03:55.170 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:03:55.171 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:03:55.171 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:03:55.938 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:03:55.938 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:03:55.939 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:03:57.473 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:03:57.473 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:03:57.474 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:04:01.940 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:04:01.940 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:04:01.941 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:04:11.238 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:04:11.239 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:04:11.239 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:05:18.722 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:05:18.722 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:05:18.723 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:05:23.743 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:05:23.743 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:05:23.744 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:06:01.487 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:06:01.487 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:06:01.488 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:06:42.900 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:06:42.900 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:06:42.901 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:06:43.959 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:06:43.959 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:06:43.960 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:06:48.738 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:06:48.738 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:06:48.739 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:06:51.668 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:06:51.668 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:06:51.669 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:09:45.771 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:09:45.772 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:09:45.772 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:09:59.953 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:09:59.953 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:09:59.954 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:11:07.310 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:11:07.310 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:11:07.311 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:13:31.848 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:13:31.848 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:13:31.849 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:15:41.739 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:15:41.739 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:15:41.740 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:15:43.703 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:15:43.703 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:15:43.704 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:15:56.625 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:15:56.625 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:15:56.626 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:16:02.463 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:16:02.463 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:16:02.464 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:16:48.230 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:16:48.231 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:16:48.231 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:16:50.524 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:16:50.525 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:16:50.525 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:17:54.631 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:17:54.631 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:17:54.632 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:18:45.660 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:18:45.660 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:18:45.660 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:18:47.049 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 15:18:47.049 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: (String), (String), (String)
+2022-11-04 15:18:47.050 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 15:18:48.704 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:18:48.705 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:18:48.706 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:20:36.400 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:20:36.400 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:20:36.401 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:20:46.613 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:20:46.613 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:20:46.614 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:20:49.072 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:20:49.072 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:20:49.073 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:20:51.016 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:20:51.017 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:20:51.018 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:20:51.796 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:20:51.796 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 1(Integer)
+2022-11-04 15:20:51.797 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:00.528 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:21:00.528 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 2(Integer)
+2022-11-04 15:21:00.529 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:01.071 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:21:01.072 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 4(Integer)
+2022-11-04 15:21:01.072 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:02.559 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:21:02.560 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 2(Integer)
+2022-11-04 15:21:02.560 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:03.360 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:21:03.360 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 4(Integer)
+2022-11-04 15:21:03.361 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:03.865 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:21:03.865 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 5(Integer)
+2022-11-04 15:21:03.866 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:21:53.503 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:21:53.503 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:21:53.504 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:22:20.409 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:22:20.409 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:22:20.410 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:22:42.434 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:22:42.434 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:22:42.435 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:23:05.949 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:23:05.949 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:23:05.950 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:24:07.437 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:24:07.438 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:24:07.438 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:24:10.385 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:24:10.385 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:24:10.386 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:24:12.349 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:24:12.349 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:24:12.350 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:24:18.218 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 15:24:18.218 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: test(String), test(String), test(String)
+2022-11-04 15:24:18.219 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 15:24:19.487 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:24:19.487 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:24:19.488 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:24:21.593 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:24:21.593 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:24:21.594 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:24:30.929 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:24:30.929 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:24:30.930 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:24:57.712 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:24:57.712 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:24:57.713 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:25:00.332 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:25:00.332 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:25:00.333 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:25:01.136 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:25:01.137 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:25:01.137 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:25:32.162 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:25:32.162 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:25:32.163 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:25:33.544 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:25:33.544 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:25:33.545 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:26:12.791 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:26:12.791 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:26:12.791 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:26:17.097 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:26:17.098 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:26:17.098 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:26:17.848 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:26:17.848 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:26:17.849 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:26:21.646 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:26:21.647 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:26:21.648 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:26:24.519 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:26:24.519 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:26:24.520 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:27:23.828 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:27:23.829 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:27:23.829 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:27:57.964 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:27:57.964 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:27:57.965 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:28:06.743  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 15:28:06.817  INFO 12984 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 15:28:06.818  INFO 12984 --- [Thread-31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 15:28:06.820  WARN 12984 --- [Thread-31] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 15:28:06.826  INFO 12984 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-11-04 15:28:06.830  INFO 12984 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-11-04 15:28:06.936  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 15:28:06.936  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 15:28:07.121  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 15:28:07.121  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 15:28:07.121  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 15:28:07.128  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 15:28:07.128  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 190 ms
+2022-11-04 15:28:07.288  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 15:28:07.294  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 15:28:07.297  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.377 seconds (JVM running for 2764.445)
+2022-11-04 15:28:07.298  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 15:28:12.931  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 15:28:12.932  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 15:28:12.933  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 15:28:12.934  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-11-04 15:28:12.946  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-11-04 15:28:12.949 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:28:12.949 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:28:12.950 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:28:14.859 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:28:14.859 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:28:14.861 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:28:27.149  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 15:28:27.224  INFO 12984 --- [Thread-37] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 15:28:27.226  INFO 12984 --- [Thread-37] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 15:28:27.228  WARN 12984 --- [Thread-37] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-6 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 15:28:27.231  INFO 12984 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-11-04 15:28:27.235  INFO 12984 --- [Thread-37] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-11-04 15:28:27.326  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 15:28:27.327  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 15:28:27.471  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 15:28:27.471  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 15:28:27.471  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 15:28:27.478  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 15:28:27.478  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 150 ms
+2022-11-04 15:28:27.627  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 15:28:27.633  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 15:28:27.635  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.324 seconds (JVM running for 2784.784)
+2022-11-04 15:28:27.636  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 15:28:29.964  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 15:28:29.964  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 15:28:29.965  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-11-04 15:28:29.966  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-11-04 15:28:29.977  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-11-04 15:28:29.980 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:28:29.980 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:28:29.981 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:28:30.843 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:28:30.844 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:28:30.844 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:29:07.962  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 15:29:08.035  INFO 12984 --- [Thread-43] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 15:29:08.036  INFO 12984 --- [Thread-43] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 15:29:08.039  WARN 12984 --- [Thread-43] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-7 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 15:29:08.042  INFO 12984 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-11-04 15:29:08.046  INFO 12984 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-11-04 15:29:08.119  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 15:29:08.119  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 15:29:08.287  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 15:29:08.288  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 15:29:08.288  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 15:29:08.294  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 15:29:08.294  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2022-11-04 15:29:08.439  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 15:29:08.445  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 15:29:08.448  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.345 seconds (JVM running for 2825.596)
+2022-11-04 15:29:08.449  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 15:29:18.047  INFO 12984 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-04 15:29:18.132  INFO 12984 --- [Thread-49] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 15:29:18.251  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Starting SpringBootMoreApplication using Java 1.8.0_192 on DESKTOP-KVCQHCD with PID 12984 (C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore\bin\main started by SSAFY in C:\Users\SSAFY\Documents\SPRINGBOOT-BASIC\SpringBootMore)
+2022-11-04 15:29:18.251  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 15:29:18.394  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-04 15:29:18.394  INFO 12984 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-04 15:29:18.394  INFO 12984 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-04 15:29:18.401  INFO 12984 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-04 15:29:18.402  INFO 12984 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 150 ms
+2022-11-04 15:29:18.549  INFO 12984 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-04 15:29:18.555  INFO 12984 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-04 15:29:18.558  INFO 12984 --- [restartedMain] c.mycom.more.SpringBootMoreApplication   : Started SpringBootMoreApplication in 0.322 seconds (JVM running for 2835.706)
+2022-11-04 15:29:18.559  INFO 12984 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-04 15:29:22.242  INFO 12984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 15:29:22.243  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-04 15:29:22.244  INFO 12984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-04 15:29:22.247  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-11-04 15:29:22.259  INFO 12984 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-11-04 15:29:22.262 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:29:22.262 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:29:22.263 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:29:23.531 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:29:23.532 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:29:23.532 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:29:25.455 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.update     : ==>  Preparing: update student set student_nm = ? ,email = ? ,phone = ? where student_id = ?
+2022-11-04 15:29:25.455 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.update     : ==> Parameters: test(String), 123(String), 123(String), 16(Integer)
+2022-11-04 15:29:25.458 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.update     : <==    Updates: 1
+2022-11-04 15:29:25.466 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:29:25.466 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:29:25.467 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:29:27.149 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:29:27.149 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:29:27.150 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:30:07.041 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:07.042 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:07.042 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:30:14.675 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:14.675 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:14.676 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:30:21.392 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:21.393 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:21.394 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:30:24.156 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:24.156 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:24.157 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 15:30:25.408 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:30:25.409 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 16(Integer)
+2022-11-04 15:30:25.409 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:30:25.977 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.delete     : ==>  Preparing: delete from student where student_id = ?
+2022-11-04 15:30:25.978 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.delete     : ==> Parameters: 16(Integer)
+2022-11-04 15:30:25.981 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.delete     : <==    Updates: 1
+2022-11-04 15:30:29.171 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:29.171 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:29.172 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:30:48.290 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:48.291 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:48.292 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:30:53.543 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:53.543 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:53.544 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 15:30:54.352 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:30:54.352 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 14(Integer)
+2022-11-04 15:30:54.353 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:30:55.081 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:30:55.081 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 15(Integer)
+2022-11-04 15:30:55.082 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:30:56.304 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : ==>  Preparing: select student_id, student_nm, email, phone from student where student_id = ?
+2022-11-04 15:30:56.305 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : ==> Parameters: 15(Integer)
+2022-11-04 15:30:56.305 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.detail     : <==      Total: 1
+2022-11-04 15:30:57.162 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.delete     : ==>  Preparing: delete from student where student_id = ?
+2022-11-04 15:30:57.162 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.delete     : ==> Parameters: 15(Integer)
+2022-11-04 15:30:57.163 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.delete     : <==    Updates: 1
+2022-11-04 15:30:57.173 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:30:57.174 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:30:57.174 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 15:31:16.985 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 15:31:16.985 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 15:31:16.986 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 16:16:39.183 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:16:39.183 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:16:39.184 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 12
+2022-11-04 16:16:45.192 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 16:16:45.192 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: ㄴㄻㄴ(String), ㅇㄹ(String), ㄴㄹ(String)
+2022-11-04 16:16:45.194 DEBUG 12984 --- [http-nio-8080-exec-7] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 16:16:45.203 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:16:45.204 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:16:45.204 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 16:16:58.628 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:16:58.628 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:16:58.628 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 16:17:04.910 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:17:04.910 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:17:04.911 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 13
+2022-11-04 16:17:09.911 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 16:17:09.911 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: ㄴㅇㄹ(String), ㄴㅇㄹ(String), ㄴㄹ(String)
+2022-11-04 16:17:09.912 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 16:17:09.921 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:17:09.921 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:17:09.922 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 16:17:20.550 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:17:20.550 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:17:20.551 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 16:17:23.449 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:17:23.449 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:17:23.450 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 14
+2022-11-04 16:17:25.970 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 16:17:25.970 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: ㄴㅇㄹ(String), ㄴㄹ(String), ㄴㄹ(String)
+2022-11-04 16:17:25.971 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 16:17:25.979 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:17:25.979 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:17:25.980 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 15
+2022-11-04 16:20:05.078 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:20:05.078 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:20:05.078 DEBUG 12984 --- [http-nio-8080-exec-5] com.mycom.more.dao.StudentDao.list       : <==      Total: 15
+2022-11-04 16:20:22.580 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:20:22.581 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:20:22.581 DEBUG 12984 --- [http-nio-8080-exec-6] com.mycom.more.dao.StudentDao.list       : <==      Total: 15
+2022-11-04 16:20:43.131 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:20:43.131 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:20:43.132 DEBUG 12984 --- [http-nio-8080-exec-8] com.mycom.more.dao.StudentDao.list       : <==      Total: 15
+2022-11-04 16:20:46.909 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:20:46.910 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:20:46.910 DEBUG 12984 --- [http-nio-8080-exec-9] com.mycom.more.dao.StudentDao.list       : <==      Total: 15
+2022-11-04 16:20:49.144 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.insert     : ==>  Preparing: insert into student ( student_nm, email, phone ) values ( ?, ?, ?)
+2022-11-04 16:20:49.144 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.insert     : ==> Parameters: ㄴㅇㄹ(String), ㄴㅇㄹ(String), ㄴㅇㄹ(String)
+2022-11-04 16:20:49.145 DEBUG 12984 --- [http-nio-8080-exec-10] com.mycom.more.dao.StudentDao.insert     : <==    Updates: 1
+2022-11-04 16:20:49.153 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:20:49.153 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:20:49.154 DEBUG 12984 --- [http-nio-8080-exec-1] com.mycom.more.dao.StudentDao.list       : <==      Total: 16
+2022-11-04 16:21:40.350 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:21:40.350 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:21:40.351 DEBUG 12984 --- [http-nio-8080-exec-2] com.mycom.more.dao.StudentDao.list       : <==      Total: 16
+2022-11-04 16:21:42.514 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:21:42.515 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:21:42.515 DEBUG 12984 --- [http-nio-8080-exec-3] com.mycom.more.dao.StudentDao.list       : <==      Total: 16
+2022-11-04 16:21:46.384 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==>  Preparing: select student_id, student_nm, email, phone from student
+2022-11-04 16:21:46.384 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : ==> Parameters: 
+2022-11-04 16:21:46.385 DEBUG 12984 --- [http-nio-8080-exec-4] com.mycom.more.dao.StudentDao.list       : <==      Total: 16
+2022-11-04 17:04:47.994  INFO 12984 --- [RMI TCP Connection(178)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-04 17:04:48.075  INFO 12984 --- [RMI TCP Connection(178)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-04 17:04:48.077  INFO 12984 --- [RMI TCP Connection(178)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-04 17:04:48.081  WARN 12984 --- [RMI TCP Connection(178)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-8 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2022-11-04 17:04:48.083  INFO 12984 --- [RMI TCP Connection(178)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-11-04 17:04:48.088  INFO 12984 --- [RMI TCP Connection(178)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.

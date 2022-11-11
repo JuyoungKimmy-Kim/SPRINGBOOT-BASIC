@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 //@CrossOrigin("*")	// 모든 서버에 대해 모든 처리 허락 --> 서버 세션 (로그인..) <= cookie를 통해서 전송되는 sessionid 계속 변경
 
 @CrossOrigin (
-		origins="http://127.0.0.1:5500",
-		//origins="*",
-		allowCredentials="true" , // sessionid 기본처럼 고정 --> server session계속 사용
+		//origins= {"http://127.0.0.1:5501", "http://127.0.0.1:8080"},
+		origins="*",
+		//allowCredentials="true" , // sessionid 기본처럼 고정 --> server session계속 사용
 		allowedHeaders="*",
 		methods= {
 				RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE,

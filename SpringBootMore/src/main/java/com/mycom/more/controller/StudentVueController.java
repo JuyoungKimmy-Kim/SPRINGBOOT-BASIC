@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,8 +19,7 @@ import com.mycom.more.service.StudentService;
 
 @CrossOrigin (
 		origins= {"http://127.0.0.1:5500", "http://127.0.0.1:8080"},
-		//origins="*",
-		allowCredentials="true" , // sessionid 기본처럼 고정 --> server session계속 사용
+		allowCredentials="true" , 
 		allowedHeaders="*",
 		methods= {
 				RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE,
@@ -27,7 +28,8 @@ import com.mycom.more.service.StudentService;
 )
 
 @RestController
-public class StudentController {
+@RequestMapping("/vue")
+public class StudentVueController {
 
 	@Autowired
 	StudentService service;
@@ -49,18 +51,18 @@ public class StudentController {
 		return service.detail(studentId);
 	}
 	
-	//등록
+	//등록 json from client by axios
 	@PostMapping(value="/students")
-	public int insert(StudentDto dto) {
+	public int insert(@RequestBody StudentDto dto) {
 		System.out.println("insert");
 		System.out.println(dto);
 		
 		return service.insert(dto);
 	}
 	
-	//수정
+	//수정 json from client by axios
 	@PutMapping(value="/students/{studentId}")
-	public int update(StudentDto dto) {
+	public int update(@RequestBody StudentDto dto) {
 		System.out.println("update");
 		System.out.println(dto);
 		
