@@ -57,6 +57,9 @@ public class BoardController {
 	@GetMapping("/boards/{boardId}")
 	private ResponseEntity<BoardResultDto> boardDetail(@PathVariable int boardId, HttpSession session) {
 
+		System.out.println("=================Board Detail================= ");
+		
+		
 		// BoardParamDto 를 만들어서 service 에 전달
 		BoardParamDto boardParamDto = new BoardParamDto();
 		boardParamDto.setBoardId(boardId); // PathVariable 로 넘어온 게시글 key
